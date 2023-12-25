@@ -74,6 +74,24 @@ public class BankAccount {
         }
 
     }
+    public String getName()
+    {
+        return this.name;
+
+    }
+    public void setName(String temp)
+    {
+        this.name = temp;
+    }
+    public double getMinBalance()
+    {
+        return this.minBalance;
+    }
+    public void setMinBalance(double temp)
+    {
+       this.minBalance = temp;
+    }
+
     public double getBalance()
     {
         return this.getBalance();
